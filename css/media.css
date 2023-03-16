@@ -1,0 +1,69 @@
+/* start home media */
+@media screen and (max-width:767px){
+    .navbar-toggler{
+        border: 2px solid #fff !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        background-color: #fff ;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navbar-collapse .navbar-nav .nav-item{
+        margin-right: 0 !important;
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: var(--main-color) !important;
+        margin: 10px;
+        transition: all 0.5s;
+        border: 2px solid var(--main-color);
+        border-radius: 50px;
+    }
+    .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+        background-color: var(--main-color);
+        color: #fff !important;
+    }
+    .home .navbar-nav .nav-item:hover .nav-link::after , .home .navbar-nav .nav-item .active::after{
+        width: 0 !important;
+        height: 0 !important;
+    }
+    .home .layer .alert h1{
+        font-size: 3rem;
+    }
+    .alert span{
+        font-size: 1.75rem !important;
+    }
+    .carousel-item .text{
+        width: 75% !important;
+    }
+}
+/* end home media */
+/* ********************************************************/
+/* start about media */
+@media screen and (max-width: 991px)  and (min-width:768px){ 
+    .about .row .image img {
+        top: -3.66rem;
+        width: 95% !important;
+    }
+}
+/* end about media */
+/* ********************************************************/
+/* start feature media */
+@media screen and (max-width: 575px) { 
+    .feature .feat{
+        padding: 0.66rem 0 !important;
+    }
+    h6::after{
+        bottom: -4.3rem !important;
+        left: 43% !important;
+    }
+}
+@media screen and (max-width: 500px) { 
+    .contact .icon a{
+        margin-right: 10px;
+    }
+}
+/* start feature media */
+/* ********************************************************/

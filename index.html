@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="image/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DevFolio</title>
+</head>
+<body class=" bg-light">
+  <div class="arrow-up" id="goHome"><i class="fa-solid fa-arrow-up"></i></div>
+  <div class="setting">
+    <div class="setting-icon"><i class="fa-solid fa-gear fs-5 fa-spin"></i></div>
+    <div class="inner-setting">
+      <div class="colorBOX d-flex justify-content-between">
+        <div class="box bg-primary"></div>
+        <div class="box bg-secondary"></div>
+        <div class="box bg-danger"></div>
+        <div class="box bg-success"></div>
+      </div>
+      <div class="bgBox">
+        <div class="row g-2 pt-3">
+          <div class="col-6"><img src="image/bg-1.jpg" class="w-100" alt="bg-2"></div>
+          <div class="col-6"><img src="image/bg-6.jpg" class="w-100" alt="bg-2"></div>
+          <div class="col-6"><img src="image/bg-3.jpg" class="w-100" alt="bg-2"></div>
+          <div class="col-6"><img src="image/bg-4.jpg" class="w-100" alt="bg-2"></div>
+          <div class="col-6"><img src="image/bg-5.jpg" class="w-100" alt="bg-2"></div>
+          <div class="col-6"><img src="image/bg-2.jpg" class="w-100" alt="bg-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="landing">
+    <div class="spinner">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+  </div>
+    <!-- start home -->
+    <header class="home vh-100 wh-100 overflow-hidden" id="HOME">
+        <div class="layer vh-100 wh-100">
+            <nav class="navbar navbar-expand-md fixed-top">
+                <div class="container">
+                  <a class="navbar-brand fs-3 fw-semibold text-white" href="#">DevFolio</a>
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars text-white fs-2 "></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#HOME">home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#SERVICES">services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#PORTFOLIO">work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#BLOG">blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#CONTACT">contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <div class="alert text-white text-center position-absolute start-50 translate-middle w-75 p-0" role="alert" id="alert">
+                <h1 class="wow flipInX" data-wow-duration="0.7s" data-wow-delay="0.8s">I am Morgan Freeman</h1>
+                <span id="typing"></span>
+              </div>
+              <a href="#ABOUT"><div class="spin mb-3 rounded-pill position-absolute start-50 translate-middle-x border border-2"></div></a>
+        </div>
+    </header>
+    <!-- end home -->
+    <!-- start about -->
+    <section class="about py-1 overflow-hidden" id="ABOUT">
+        <div class="container bg-white py-5 pe-3 shadow">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 px-sm-4">
+                <div class="row align-items-center wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="col-lg-4 col-md-5 offset-md-1 col-sm-5 image ">
+                    <img src="image/testimonial-2.jpg" alt="about" class=" w-auto rounded-1 position-relative">
+                  </div>
+                  <div class="col-lg-7 col-md-6 col-sm-6 px-lg-4 text">
+                    <h3 class=" py-2"><span class=" text-dark">Name: </span> Morgan Freeman</h3>
+                    <h3 class=" py-2"><span class=" text-dark">Profile: </span> full stack developer</h3>
+                    <h3 class=" py-2"><span class=" text-dark">Email: </span> contact@example.com</h3>
+                    <h3 class=" py-2"><span class=" text-dark">Phone: </span> (617) 557-0089</h3>
+                  </div>
+                </div>
+                <div class="row my-4 wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="col offset-md-1">
+                    <h3 class=" fs-5 text-dark fw-semibold">Skill</h3>
+                    <div class="header d-flex justify-content-between pt-3 pb-2">
+                      <span class="text-muted">HTML</span><span class="text-muted">85%</span>
+                    </div>
+                    <div class="progress rounded-0">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="header d-flex justify-content-between pt-3 pb-2">
+                      <span class="text-muted">CSS3</span><span class="text-muted">75%</span>
+                    </div>
+                    <div class="progress rounded-0">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="header d-flex justify-content-between pt-3 pb-2">
+                      <span class="text-muted">PHP</span><span class="text-muted">50%</span>
+                    </div>
+                    <div class="progress rounded-0">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="header d-flex justify-content-between pt-3 pb-2">
+                      <span class="text-muted">JAVASCRIPT</span><span class="text-muted">90%</span>
+                    </div>
+                    <div class="progress rounded-0">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 px-sm-4 wow bounceIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                <h2 class=" position-relative text-dark">About me</h2>
+                <p class=" text-muted mt-5 pe-md-5">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
+                <p class=" text-muted pe-md-5">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.</p>
+                <p class=" text-muted pe-md-5">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start services -->
+    <section class="services py-3 overflow-hidden" id="SERVICES">
+      <div class="container text-center pb-5">
+        <div class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+          <h6 class="position-relative">SERVICES</h6>
+          <p class=" text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row py-5 gy-5">
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">WEB DESIGN</h4>
+              <p class=" text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-code"></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">WEB DEVELOPMENT</h4>
+              <p class=" text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-camera"></i></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">PHOTOGRAPHY</h4>
+              <p class=" text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">RESPONSIVE DESIGN</h4>
+              <p class=" text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-paintbrush"></i></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">GRAPHIC DESIGN</h4>
+              <p class=" text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="bg-white rounded-4 py-5 px-4 shadow serv">
+              <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+              <h4 class=" pt-4 pb-2 fs-4">MARKETING SERVICES</h4>
+              <p class=" text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+    <!-- start feature -->
+    <section class="feature overflow-hidden" id="FEATURE">
+      <div class="layer py-5">
+        <div class="container">
+          <div class="row text-center py-5">
+            <div class="col-md-3 col-sm-6 wow bounceInDown">
+              <div class="feat py-5">
+                <div class="icon"><i class="fa-solid fa-check"></i></div>
+                <h3 class="pt-4 fs-2 text-white m-0 purecounter" data-purecounter-start="0" data-purecounter-end="450">450</h3>
+                <p class=" text-white">WORKS COMPLETED</p>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow bounceInUp">
+              <div class="feat py-5">
+                <div class="icon"><i class="fa-regular fa-calendar"></i></div>
+                <h3 class="pt-4 fs-2 text-white m-0 purecounter" data-purecounter-start="0" data-purecounter-end="15">15</h3>
+                <p class=" text-white">YEARS OF EXPERIENCE</p>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow bounceInLeft">
+              <div class="feat py-5">
+                <div class="icon"><i class="fa-solid fa-people-group"></i></div>
+                <h3 class="pt-4 fs-2 text-white m-0 purecounter" data-purecounter-start="0" data-purecounter-end="550">550</h3>
+                <p class=" text-white">TOTAL CLIENTS</p>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow bounceInRight">
+              <div class="feat py-5">
+                <div class="icon"><i class="fa-solid fa-medal"></i></div>
+                <h3 class="pt-4 fs-2 text-white m-0 purecounter" data-purecounter-start="0" data-purecounter-end="36">36</h3>
+                <p class=" text-white">AWARD WON</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end feature -->
+    <!-- start portfolio -->
+    <section class="portfolio py-3 overflow-hidden" id="PORTFOLIO">
+      <div class="container pt-5">
+        <div class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+          <h6 class="position-relative text-center">PORTFOLIO</h6>
+          <p class=" text-muted text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row py-5 gy-5">
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-1.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Lorem impsum dolor</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-2.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Loreda Cuno Nere</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-3.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Mavrito Lana Dere</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-4.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Bindo Laro Cado</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-5.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Studio Lena Mado</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="work overflow-hidden shadow">
+              <div class="image">
+                <img src="image/work-6.jpg" alt="work" class=" w-100 position-relative">
+              </div>
+              <div class="row bg-white pt-4 pb-3 px-3">
+                <div class="col-10">
+                  <h3 class=" fs-5">Studio Big Bang</h3>
+                  <span class=" main-color">Web Design</span>
+                  <span class=" text-muted">/ 18-Sep-2018</span>
+                </div>
+                <div class="col-2 pt-2 px-md-0">
+                  <i class="fa-solid fa-circle-plus main-color fs-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end portfolio -->
+    <!-- start user -->
+    <section class="user overflow-hidden">
+      <div class="layer w-100 h-100">
+        <div class="container h-100 m-auto py-5 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay=".4s">
+          <div id="carouselExampleIndicators" class="carousel slide pt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="row justify-content-center align-items-center text-center text-white">
+                  <div class="image">
+                    <img src="image/testimonial-4.jpg" class="rounded-circle" alt="user">
+                  </div>
+                  <div class="text w-50">
+                    <h4 class=" fs-4 fw-semibold py-4">MARTA SOCRATE</h4>
+                    <p class=" fs-5 fw-light">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <div class="icon"><i class="fa-solid fa-quote-right"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row justify-content-center align-items-center text-center text-white">
+                  <div class="image">
+                    <img src="image/testimonial-2.jpg" class="rounded-circle" alt="user">
+                  </div>
+                  <div class="text w-50">
+                    <h4 class=" fs-4 fw-semibold py-4">XAVI ALONSO</h4>
+                    <p class=" fs-5 fw-light">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                    <div class="icon"><i class="fa-solid fa-quote-right"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators position-static mt-3">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end user -->
+    <!-- start blog -->
+    <section class="blog py-3 overflow-hidden" id="BLOG">
+      <div class="container py-5">
+        <div class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+          <h6 class="position-relative text-center">BLOG</h6>
+          <p class=" text-muted text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row py-5 justify-content-between">
+          <div class="card col-md-4 col-sm-12 rounded-0 bg-transparent border-0 wow rollIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
+            <div class="inner bg-white border overflow-hidden">
+              <a href="#"><img src="image/post-1.jpg" class="card-img-top rounded-0 w-100" alt="post"></a>
+            <div class="card-body px-4 position-relative">
+              <div class="text position-absolute top-0 start-50 translate-middle main-bg py-2 px-3 text-white fw-semibold rounded">TRAVEL</div>
+              <h5 class=" pt-3"><a href="#" class=" text-decoration-none text-dark">See more ideas about Travel</a></h5>
+              <p class="text-muted py-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            </div>
+            <div class="card-footer row px-2 py-3">
+              <div class="left col-8 ps-4">
+                <img src="image/testimonial-2.jpg" alt="" class="rounded-circle">
+                <span><a href="#" class=" text-decoration-none text-dark">Morgan Freeman</a></span>
+              </div>
+              <div class="right col-4">
+                <i class="fa-regular fa-clock"></i>
+                <span> 10 min</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="card col-md-4 col-sm-12  rounded-0 bg-transparent border-0 wow rollIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+            <div class="inner bg-white border overflow-hidden">
+              <a href="#"><img src="image/post-2.jpg" class="card-img-top rounded-0 w-100" alt="post"></a>
+            <div class="card-body px-4 position-relative">
+              <div class="text position-absolute top-0 start-50 translate-middle main-bg py-2 px-3 text-white fw-semibold rounded">WEB DESIGN</div>
+              <h5 class=" pt-3"><a href="#" class=" text-decoration-none text-dark">See more ideas about Travel</a></h5>
+              <p class="text-muted py-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            </div>
+            <div class="card-footer row px-2 py-3">
+              <div class="left col-8 ps-4">
+                <img src="image/testimonial-2.jpg" alt="" class="rounded-circle">
+                <span><a href="#" class=" text-decoration-none text-dark">Morgan Freeman</a></span>
+              </div>
+              <div class="right col-4">
+                <i class="fa-regular fa-clock"></i>
+                <span> 10 min</span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="card col-md-4 col-sm-12  rounded-0 bg-transparent border-0 wow rollIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
+            <div class="inner bg-white border overflow-hidden">
+              <a href="#"><img src="image/post-3.jpg" class="card-img-top rounded-0 w-100" alt="post"></a>
+            <div class="card-body px-4 position-relative">
+              <div class="text position-absolute top-0 start-50 translate-middle main-bg py-2 px-3 text-white fw-semibold rounded">DEVELOPE</div>
+              <h5 class=" pt-3"><a href="#" class=" text-decoration-none text-dark">See more ideas about Travel</a></h5>
+              <p class="text-muted py-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            </div>
+            <div class="card-footer row px-2 py-3">
+              <div class="left col-8 ps-4">
+                <img src="image/testimonial-2.jpg" alt="" class="rounded-circle">
+                <span><a href="#" class=" text-decoration-none text-dark">Morgan Freeman</a></span>
+              </div>
+              <div class="right col-4">
+                <i class="fa-regular fa-clock"></i>
+                <span> 10 min</span>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end blog -->
+    <!-- start contact -->
+    <section class="contact overflow-hidden" id="CONTACT">
+      <div class="layer w-100 h-100 overflow-hidden">
+        <div class="container shadow bg-white py-5 my-5">
+          <div class="row">
+            <div class="col-md-6 ps-md-5 col-sm-12 px-sm-4 wow bounceInDown"  data-wow-duration="1.2s" data-wow-delay="0.3s">
+              <h2 class=" position-relative text-dark fs-2 fw-semibold">Send Message Us</h2>
+              <form class=" py-4">
+                  <input type="text" class="form-control my-4 py-3" id="exampleFormControlInput1" placeholder="Your Name">
+                  <input type="email" class="form-control my-4 py-3" id="exampleFormControlInput1" placeholder="Your Email">
+                  <input type="text" class="form-control my-4 py-3" id="exampleFormControlInput1" placeholder="Subject">
+                  <textarea class="form-control my-4 py-3" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                  <button class="btn main-bg py-3 px-5 fs-5 rounded-pill" type="submit">Send Message</button>
+              </form>
+            </div>
+            <div class="col-md-6 ps-md-4 col-sm-12 ps-sm-4 wow bounceInUp"  data-wow-duration="1.2s" data-wow-delay="0.4s">
+              <h2 class=" position-relative text-dark fs-2 fw-semibold">Get in Touch</h2>
+              <p class=" text-muted pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+              <span class=" d-block py-2 text-muted"><i class="fa-solid fa-location-dot pe-2"></i> 329 WASHINGTON ST BOSTON, MA 02108</span>
+              <span class=" d-block py-2 text-muted"><i class="fa-solid fa-phone pe-2"></i> (617) 557-0089</span>
+              <span class=" d-block py-2 text-muted"><i class="fa-solid fa-envelope pe-2"></i> contact@example.com</span>
+              <div class="icon py-4 fs-3 col-5 d-flex justify-content-between">
+              <a href="#"><i class="fa-brands fa-facebook-f  border-2 rounded-circle border "></i></a>
+              <a href="#"><i class="fa-brands fa-twitter  border-2 rounded-circle border "></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp  border-2 rounded-circle border"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram  border-2 rounded-circle border"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer text-center text-white">
+          <p class=" mb-0">© Copyright <span class=" fw-semibold">DevFolio</span> . All Rights Reserved</p>
+          <p class=" mt-0 mb-5">Designed by Mohamed Maher</p>
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
